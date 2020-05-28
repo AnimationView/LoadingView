@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="LoadingView">
+        <attr name="load_view_duration" format="integer" />
+        <attr name="load_view_load_drawable" format="reference" />
+        <attr name="load_view_finish_drawable" format="reference" />
+        <attr name="load_view_error_drawable" format="reference" />
+        <attr name="load_view_min_load_time" format="integer" />
+        <attr name="load_view_max_load_time" format="integer" />
+        <attr name="load_view_anim_show_time" format="integer" />
+        <attr name="load_view_anim_dismiss_time" format="integer" />
+    </declare-styleable>
+
+</resources>
